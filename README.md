@@ -4,7 +4,7 @@ Projeto de ciência de dados (projeto_vendas_lojas_v0.ipynb) que implementa um c
 
 ## Questão de Negócio
 
-Neste projeto vamos a predecir as vendas, nas próximas seis (06) semanas, de uma rede de farmácias. Se assume que o projeto surge do problema que encara uma empresa em preveer as vendas de toda uma rede e, assim, estimar quanto deve investir para reformar todas as suas lojas.
+O objetivo do projeto é predecir as vendas, nas próximas seis (06) semanas, de uma rede de farmácias. Se assume que o projeto surge do problema que encara uma empresa em preveer as vendas de toda uma rede e, assim, estimar quanto deve investir para reformar todas as suas lojas.
 
 ## Premisas do Negócio
 
