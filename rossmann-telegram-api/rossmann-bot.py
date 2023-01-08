@@ -36,7 +36,7 @@ def load_dataset(store_id):
     
     # carregar dados
     # df10 = pd.read_csv('data/test.csv')
-    df10 = pd.read_csv(./'rossmann-telegram-api/test.csv')
+    df10 = pd.read_csv('./rossmann-telegram-api/test.csv')
     # df_store_raw = pd.read_csv('data/store.csv')
     df_store_raw = pd.read_csv('./rossmann-telegram-api/store.csv')
 
