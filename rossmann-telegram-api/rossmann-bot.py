@@ -36,9 +36,9 @@ def load_dataset(store_id):
     
     # carregar dados
     # df10 = pd.read_csv('data/test.csv')
-    df10 = pd.read_csv('./rossmann-telegram-api/test.csv')
+    df10 = pd.read_csv('test.csv')
     # df_store_raw = pd.read_csv('data/store.csv')
-    df_store_raw = pd.read_csv('./rossmann-telegram-api/store.csv')
+    df_store_raw = pd.read_csv('store.csv')
 
     # juntar datasets de teste e lojas
     df_test = pd.merge(df10, df_store_raw, how='left', on='Store')
