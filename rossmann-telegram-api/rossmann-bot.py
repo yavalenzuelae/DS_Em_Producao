@@ -63,10 +63,9 @@ def predict(data_teste):
     # chamar API
     url = 'https://rossmann-api-j9wy.onrender.com/rossmann/predict'
     header = {'Content-type': 'application/json' }
-    data = data_teste
 
     # status da requisição
-    r = requests.post( url, data=data, headers=header)
+    r = requests.post( url, data=data_teste, headers=header)
     print('Código do status da requisição: {}'.format(r.status_code))
 
     # converter json para dataframe
