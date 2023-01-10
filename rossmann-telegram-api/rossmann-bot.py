@@ -59,11 +59,11 @@ def load_dataset(store_id):
 
     return data
         
-def predict(data):        
+def predict(data_teste):        
     # chamar API
     url = 'https://rossmann-api-j9wy.onrender.com/rossmann/predict'
     header = {'Content-type': 'application/json' }
-    data = data
+    data = data_teste
 
     # status da requisição
     r = requests.post( url, data=data, headers=header)
