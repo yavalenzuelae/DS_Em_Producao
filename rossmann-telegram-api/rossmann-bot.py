@@ -24,7 +24,7 @@ TOKEN = '5922864156:AAGdjJMNvzQEVRWoVOrRrQLPDuJ7sRCFGyA'
 def send_message(chat_id, text):
     
     url = 'https://api.telegram.org/bot{}/'.format(TOKEN) # observar que o TOKEN fica como uma variável global
-    url = url + '/sendMessage?chat_id={}'.format(chat_id) 
+    url = url + 'sendMessage?chat_id={}'.format(chat_id) 
     
     # enviar mensagem pro bot
     r = requests.post(url,json={'text': text}) # isto é equivalente a copiar e colar a url no navegador na mão
@@ -116,5 +116,4 @@ def index():
         return '<h1> Rossmann Telegram BOT </h1>'
 if __name__ == '__main__':
     port = os.environ.get('PORT', 5000)
-    # app.run(host='0.0.0.0', port=5000)
     app.run(host='0.0.0.0', port=port)
