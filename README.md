@@ -64,9 +64,9 @@ XGBoost Regressor | 937.48 $\pm$ 121.16 | 13.12 $\pm$ 1.07 | 1340.12 $\pm$ 170.8
  
 O modelo final foi avaliado com os dados de teste (ver subseção 8.2 do notebook). Os resultados se mostram a seguir:
 
-| Modelo | MAE | RMSE | MAPE | MPE
-| --- | --- | --- | --- | --- |
-XGBoost Regressor | 785.97 | 1119.86 | 11,93 | -2,46 |
+| Modelo | MAE | MAPE | RMSE |
+| --- | --- | --- | --- |
+XGBoost Regressor | 785.97 | 11,93 | 1119.86 |
 
 Com o modelo definido e ajustado foi feita uma interpretação e tradução do erro (módulo 9.0. no notebook). Num gráfico das vendas e das predições ao longo do tempo (ver na subseção 9.2. do notebook) pode-se observar que as predições seguem a tendência das vendas observadas nas próximas seis semanas. 
 
