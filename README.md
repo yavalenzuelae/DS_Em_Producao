@@ -60,8 +60,8 @@ Na busca de um conjunto de parâmetros para melhorar os resultados do modelo com
 
 | Modelo | MAE_CV | MAPE_CV | RMSE_CV |
 | --- | --- | --- | --- |
-XGBoost Regressor | - $\pm$ - | - $\pm$ - | - $\pm$ - |
-
+XGBoost Regressor | 937.48 $\pm$ 121.16 | 13.12 $\pm$ 1.07 | 1340.12 $\pm$ 170.82 |
+ 
 O modelo final foi avaliado com os dados de teste (ver subseção 8.2 do notebook). Os resultados se mostram a seguir:
 
 | Modelo | MAE | RMSE | MAPE | MPE
