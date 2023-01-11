@@ -1,11 +1,13 @@
-import pickle
+# import pickle
+import joblib
 import os
 import pandas as pd
 from flask             import Flask, request, Response
 from rossmann.Rossmann import Rossmann
 
 # load model
-model = pickle.load(open('model/model_rossmann.pkl','rb'))
+# model = pickle.load(open('model/model_rossmann.pkl','rb'))
+model = joblib.load('model/model_rossmann_joblib.pkl.xz')
 
 # initialize API
 app = Flask(__name__)
