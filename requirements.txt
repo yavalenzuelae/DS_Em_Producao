@@ -4,4 +4,3 @@ inflection==0.5.1
 numpy==1.23.3
 xgboost==1.5.0
 scikit-learn==1.1.3
-joblib==1.1.1
