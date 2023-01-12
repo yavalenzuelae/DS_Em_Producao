@@ -43,7 +43,7 @@ Para resolver a questão de negócio, acima:
 
 ## Resultados Financeiros para o Negócio
 
-O modelo prevee que, nas próximas seis semanas, a rede de lojas vai realizar, na média, 7730880 vendas. No pior cenário, a rede vai realizar 6851054 vendas e, no melhor 8610705 (ver subseção 9.1.1. do notebook). A predição para uma loja específica da rede pode ser obtida usando um bot no Telegram (... por aqui link do contato ...) criado para este projeto (pasta rossmann-telegram-api). Na média, o erro percentual médio absoluto que, teria a predição das vendas de uma das lojas, quaisquer, da rede, é de 12% (ver subseção 9.1. do notebook).
+O modelo prevee que, nas próximas seis semanas, a rede de lojas vai realizar, na média, 7730880 vendas. No pior cenário, a rede vai realizar 6851054 vendas e, no melhor 8610705 (ver subseção 9.1.1. do notebook). A predição para uma loja específica da rede pode ser obtida usando um bot no Telegram (contato: https://t.me/yave_rossmann_bot) criado para este projeto (pasta rossmann-telegram-api). Na média, o erro percentual médio absoluto que, teria a predição das vendas de uma das lojas, quaisquer, da rede, é de 12% (ver subseção 9.1. do notebook).
 
 ## Performance dos Modelos de Machine Learning
 
