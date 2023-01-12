@@ -76,7 +76,7 @@ O modelo descreve satisfatóriamente o fenômeno em questão, predição das ven
 
 ## Conclusão
 
-Se prevee que, nas próximas seis semanas, a rede de lojas vai realizar, no pior cenário, 6851054 vendas e, no melhor 8610705. Para atingir o resultado mencionado, foi implementado o modelo de ML, XGBoost Regressor, entre 5 modelos aplicados (ver seção 7.0. no notebook). O MAPE_CV é de - $\pm$ - (ver tabela acima). Quando aplicado o modelo nos dados de teste o MAPE é de 11,93 % (ver subseção 8.2. do notebook). Resultado satisfatório se observamos que está abaixo do esperado pelo CV. A performance do modelo é ~88 %.      
+Se prevee que, nas próximas seis semanas, a rede de lojas vai realizar, no pior cenário, 6851054 vendas e, no melhor 8610705. Para atingir o resultado mencionado, foi implementado o modelo de ML, XGBoost Regressor, entre 5 modelos aplicados (ver seção 7.0. no notebook). O MAPE_CV é de 13.12 $\pm$ 1.07 (ver tabela acima). Quando aplicado o modelo nos dados de teste o MAPE é de 11,93 % (ver subseção 8.2. do notebook). Resultado satisfatório se observamos que está abaixo do esperado pelo CV. A performance do modelo é ~88 %.      
 
 ## Perspectivas
 
