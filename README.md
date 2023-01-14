@@ -70,7 +70,7 @@ XGBoost Regressor | 785.97 | 11,93 | 1119.86 |
 
 Com o modelo definido e ajustado foi feita uma interpretação e tradução do erro (módulo 9.0. no notebook). Num gráfico das vendas e das predições ao longo do tempo (ver na subseção 9.2. do notebook) pode-se observar que as predições seguem a tendência das vendas observadas nas próximas seis semanas. 
 
-Se fizermos uma predição das vendas para uma data específica (dentro das próximas seis semanas) teriamos uma taxa de erro (= predictions / sales), na média, de 1,01 (ver subseção 9.2.). Logo, a predição se encontrara por cima da observação num 1 %.
+Se fizermos uma predição das vendas para uma data específica (dentro das próximas seis semanas) teriamos uma taxa de erro (= predictions / sales), na média, de 1,02 (ver subseção 9.2.). Logo, a predição se encontrara por cima da observação num 2 %.
 
 O modelo descreve satisfatóriamente o fenômeno em questão, predição das vendas da rede de lojas nas próximas seis semanas. Como demonstrado pela distribuição do erro (= sales - predictions), a qual é próxima de uma normal (ver subseção 9.2. do notebook), e pelo gráfico do error vs predictions (ver subseção 9.2. do notebook), no qual, a grande maioria dos erros, estão confinados entre dois valores, -10000 e +10000. 
 
