@@ -1,4 +1,4 @@
-# Predição de Vendas de uma Rede Lojas 
+# Predição de Vendas para uma Rede Farmácias 
 
 Projeto de ciência de dados (projeto_vendas_lojas_v0.ipynb) que implementa um ciclo do *Cross Industry Standard Process* - CRISP de 9 passos para resolver um problema de negócio e entregar valor para uma empresa. São usados dados públicos para a demonstração do método (arquivo data). Os 9 passos considerados são: Questão de negócio, Entendimento do negócio, Coleta de dados, Limpeza dos dados, Exploração dos dados, Modelagem dos dados, Algoritmos de Machine Learning - ML, Avaliação do algoritmo e o Modelo em produção (handler.py).
 
